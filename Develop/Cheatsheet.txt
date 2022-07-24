@@ -14,5 +14,10 @@ In Insomnia, test with GET http://localhost:3001/api/categories/
 
 
 This is the correct JSON for creating a product:
- 
+ {
+      "product_name": "Basketball",
+      "price": 200.00,
+      "stock": 3,
+      "tagIds": [1, 2, 3, 4]
+    }
 
